@@ -19,7 +19,7 @@ namespace EstructuraPilas
             lista = new int[maxpila];
         }
 
-        private bool vacia()
+        public bool vacia()
         {
             if (tope == -1)
                 return true;
@@ -27,7 +27,7 @@ namespace EstructuraPilas
                 return false;
          }
         
-        private bool llena() 
+        public bool llena() 
         {
             if (tope == maxpila - 1)
                 return true;

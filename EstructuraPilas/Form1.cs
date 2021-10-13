@@ -44,5 +44,11 @@ namespace EstructuraPilas
             pila.eliminar();
             mostrarPila();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ExpresionMatematica expresionMatematica = new ExpresionMatematica();
+            expresionMatematica.evaluar_Parentesis(textBox2.Text);
+        }
     }
 }
